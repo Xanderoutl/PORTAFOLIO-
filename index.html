@@ -1,49 +1,133 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhony Alexander Grajales - Desarrollador</title>
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/b7caa4a28a.js" crossorigin="anonymous"></script>
-
 </head>   
-><body>
-<header>
-    <nav id="navbar">
-        <div class="logo">Yhony<span>Grajales</span></div>
-        <ul class="nav-links">
-            <li><a href="#inicio">inicio</a></li>
-            <li><a href="#experiencia">experiencia</a></li>
-            <li><a href="#proyectos">proyectos</a></li>
-    </nav>
-</header>
-<main>
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
+<body>
+    <!-- MAIN CONTAINER - 3 COLUMNAS -->
+    <div class="main-container">
+        
+        <!-- COLUMNA 1 - PERFIL + INFO -->
+        <div class="column">
+            <div class="hero-section">
+                <img src="assets/imagenes/yhon.png" alt="Yhony Grajales" class="profile-image">
                 <h1>Yhony Alexander Grajales Delgado</h1>
-                <h2>Quien soy</h2>
-                <p>Soy un desarrollador en formación con conocimientos en Python, GitHub y metodologías ágiles.
-                    Apasionado por el aprendizaje constante y la creación de proyectos innovadores. 
-                </p>
-                    <div class="social-links">
-                        <a href="https://github.com/Xanderoutl"target="_blanck"><i class="fab fa-github"></i></a>
-                        <a href="#"target="_blanck"><i class="fab fa-instagram"></i></a>
-                        <a href="#"target="_blanck"><i class="fab fa-git GitHub"></i></a>
-                        <a href="#"target="_blanck"><i class="fab fa-git GitHub"></i></a>
+                <h2>¿Quién soy?</h2>
+                <p>Soy un desarrollador en formación con conocimientos en Python, GitHub y metodologías ágiles. Apasionado por el aprendizaje constante y la creación de proyectos innovadores.</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Xanderoutl" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <a href="https://www.whatsapp.com/" class="btn">contactame</a>
+            </div>
+
+            <div class="info-section">
+                <h2>Información Personal</h2>
+                <ul class="info-list">
+                    <li><strong>Edad:</strong> 17 años</li>
+                    <li><strong>Estado Civil:</strong> Soltero</li>
+                    <li><strong>Género:</strong> Masculino</li>
+                </ul>
+                
+                <h3>Contacto</h3>
+                <ul class="info-list">
+                    <li><strong>Teléfono:</strong> +57 3243903806</li>
+                    <li><strong>Email:</strong> yhonyty3@gmail.com</li>
+                    <li><strong>Ciudad:</strong> Medellín</li>
+                    <li><strong>País:</strong> Colombia</li>
+                    <li><strong>Dirección:</strong> Piedecuesta</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COLUMNA 2 - EXPERIENCIA + EDUCACIÓN + IDIOMAS -->
+        <div class="column">
+            <div class="timeline-section">
+                <h2>Experiencia</h2>
+                <div class="timeline-item">
+                    <span class="date">2025 - Actualidad</span>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Junior en proceso</h3>
+                        <h4>Campusland</h4>
+                        <p>Desarrollador de software</p>
+                        <ul class="skills">
+                            <li>GITHUB</li>
+                            <li>PYTHON</li>
+                        </ul>   
+                    </div> 
+                </div>
+            </div>
+
+            <div class="education-section">
+                <h2>Formación Académica</h2>
+                <ul class="info-list">
+                    <li><strong>Primaria:</strong> Luis Carlos Galán</li>
+                    <li><strong>Secundaria:</strong> FUNDETEC</li>
+                    <li><strong>Técnico:</strong> Campusland (cursando)</li>
+                </ul>
+            </div>
+
+            <div class="languages-section">
+                <h2>Idiomas</h2>
+                <ul class="info-list">
+                    <li><strong>Español:</strong> Nativo</li>
+                    <li><strong>Inglés:</strong> A.1.3</li>
+                </ul>
+                <p>Lectura: Intermedio | Escritura: Básico | Habla: Básico</p>
+            </div>
+            <div class="video-">
+                <div class="titulo-video">
+                    <h1>Video Presentacion</h1>
+                </div>
+                <div class="presentation">
+                    <video controls>
+                        <source src="assets/imagenes/videos/video.mp4" type="video/mp4">
+                        video no disponible
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!-- COLUMNA 3 - PROYECTOS -->
+        <div class="column">
+            <div class="projects-section">
+                <h2>Proyectos</h2>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="python-logo"></div>
                     </div>
-        </div>
-        <div class="hero-image">
-            <img src="assets/imagenes/yhon.png" alt="profile image">
-        </div>
-        </div>
-    </section>
-    <section id="experiencia" class="experiencia">
-        <h2></h2>
+                    <div class="project-info">
+                        <h3>GESTION DE DATOS ACADEMICOS</h3>
+                        <p>Sistema ERP en Python para la gestión de estudiantes, cursos, profesores y recursos educativos.</p>
+                        <div class="project-tech"><span>PYTHON</span></div>
+                        <a href="https://github.com/Xanderoutl/Proyecto_Python_GRAJALES-ALEXANDER/blob/main/main.py" target="_blank" class="project-link">
+                            <i class="fas fa-eye"></i> Código
+                        </a>
+                    </div>
+                </div>
 
-    </section>
-</main>
-
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="python-logo"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GESTION DE CUENTAS BANCARIAS</h3>
+                        <p>Programa en consola para registrar clientes, crear cuentas, depósitos y consultar movimientos.</p>
+                        <div class="project-tech"><span>PYTHON</span></div>
+                        <a href="https://github.com/Xanderoutl/SISTEMA-GESTI-N-DE-CUENTAS-BANCARIAS/blob/main/sistema_bancario.py" target="_blank" class="project-link">
+                            <i class="fas fa-eye"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+```
